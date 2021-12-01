@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ropa Sans", sans-serif;
+}
+/* grid */
+.container {
+  display: grid;
+  grid-template-rows: 120px 1fr;
+}
+header {
+  display: grid;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  background-color: #004d4a;
+}
+
+/* Header Tags*/
+
+h2 {
+  background-color: #004d4a;
+  color: white;
+  font-size: 2rem;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+h3,
+strong {
+  color: #004d4a;
+}
+
+h3 {
+  text-align: right;
+}
+
+article span p {
+  background-color: #004d4a;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Body Section */
+
+main {
+  display: grid;
+  place-items: center;
+  word-spacing: 4px;
+}
+.quotes__software {
+  line-height: 1;
+  width: 60ch;
+  padding: 10px;
+}
+
+.quotes__life {
+  line-height: 1;
+  width: 60ch;
+  padding: 10px;
+}
+
+article {
+  background-color: #004d4a15;
+  border-radius: 10px;
+}
